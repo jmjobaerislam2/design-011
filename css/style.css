@@ -1,0 +1,528 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+body {
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+* {
+    /*border: 1px solid black;*/
+}
+.mobail-menu {
+    display: none;
+}
+
+.for-mobail {
+    display: none;
+}
+.menubar-area {
+    background-color: black;
+    color: white;
+    padding: 25px 72px 25px 55px;
+    /*position: fixed;*/
+    width: 100%;
+}
+.company-logo {
+
+}
+* {
+    /*border: 1px solid black;*/
+}
+.owl-carousel .owl-item {
+    height: 501px;
+    overflow: hidden;
+}
+.menu {
+	text-align: right;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 42px;
+    font-size: 18px;
+    transition: 0.4s;
+}
+.menu ul li a:hover {
+  color: #16a086;  
+}
+.technology-info {
+    margin: 40px 45px 10px 45px;
+    height: ;
+    width: ;
+}
+.technology-img {
+    height: 472px;
+    width: 100%;
+    margin: 79px 10px 10px 10px;
+}
+.technology-img svg {
+    width: 100%;
+    height: 100%;
+}
+.technology-text {
+    background-color: #f3efef;
+}
+.technology-text span {
+   display: flex; 
+}
+.technology-text {
+    
+}
+.t-head {
+    padding: 29px 10px 34px 0px;
+}
+.tec-about {
+    padding: 10px 71px 29px 52px;
+    font-size: 15px;
+}
+.techno-button {
+    margin: 28px 0px 40px 0px;
+}
+.techno-button button {
+    padding: 13px 25px 12px 25px;
+    font-size: 15px;
+    background-color: #1b971bd9;
+    border: none;
+    color: white;
+    transition: 0.6s;
+}
+.techno-button button:hover {
+    background-color: #000;
+    color: white;
+}
+/*about-service*/
+        /*about-service*/
+
+.about-service {
+    margin: 0px 88px 10px 88px;
+}
+.service-head {
+    text-align: center;
+    margin: 67px 10px 58px 10px;
+}
+.service-head h1::after {
+   content: "";
+   height: 10px;
+   width: 60px;
+   color: green;
+   position: relative;
+} 
+.service-box {
+
+}      
+.service-img {
+    overflow: hidden;
+}
+.service-img img {
+    height: 100%;
+    width: 100%;
+    transform: scale(1.0);
+}
+.service-img img:hover {
+    height: 100%;
+    width: 100%;
+    transform: scale(1.3);
+    transition: 0.7s;
+}
+.service-name {
+    background-color: black;
+    color: white;
+    padding-left: 31px;
+    padding-top: 23px;
+    height: 148px;
+}
+.xxx {
+    padding-left: 10px;
+}
+
+/*about carousel*/
+/*about carousel*/
+
+.service-name a:hover {
+    color: green;
+}      
+.slider-box {
+    height: 404px;
+    width: 606px;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider-img {
+    /* height: 100%; */
+    width: 100%;
+    overflow: hidden;
+    border: 4px solid #726262;
+    padding: 11px;
+    margin-top: 81px;
+}
+.slider-img img {
+    height: 100%;
+     width: 100%; 
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.container-fluid {
+    position: relative;
+}
+.carousel-button {
+    position: absolute;
+}
+.carousel-button button {
+    background-color: red;
+}
+.corousel-hi-wid {
+    height: 316px;
+    width: 100%;
+    border: 4px solid white;
+    position: relative;
+    top: 60px;
+}
+.about-counter {
+    margin: 63px 0px 1px 0px;
+    padding: 57px 40px 20px 40px;
+}
+
+.corusel-hight {
+
+}
+.item1 {
+    height: 748px;
+}
+.item2 {
+    /*height: 129px;*/
+    margin-top: 8px;
+}
+
+/*about-featured
+    /*about-featured*/
+.about-featured {
+    justify-content: center;
+    text-align: center;
+    background-color: #f1f0f0;
+    margin: 92px 0px 0px 0px;
+}
+.featured-box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 97px;
+}
+
+.item-box {
+    margin: 14px;
+    width: 426px;
+    position: relative;
+}
+.item-box:hover::after {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.5);
+    /*background-color: black;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.item-box:hover {
+   background-color: black;
+}
+.item-box:hover img {
+   /*display: none;*/
+   background-color: black;
+}
+.item-box:hover .up-item {
+   visibility: visible;
+   top: 100px;
+}
+.item-box:hover .up-item1 {
+   visibility: visible;
+    top: 35px;
+}
+.item-box img {
+    height: 100%;
+    width: 100%;
+}
+.up-item1 {
+    position: absolute;
+    width: 426px;
+    top: 0px;
+    height: 50%;
+    color: white;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 99;
+}
+.up-item {
+    position: absolute;
+    width: 426px;
+    top: 140px;
+    height: 50%;
+    color: white;
+    visibility: hidden;
+    transition: 0.3s;
+    z-index: 2;
+}
+.up-item {
+    
+}
+.up-item .featured-button {
+   
+}
+.up-item .featured-button button {
+    background-color: green;
+    padding: 8px 35px 8px 35px;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+/*corousel22*/
+/*corousel22*/
+
+.about-slide-counter {
+    background-color: black;
+}
+
+
+.corousel22 img {
+
+}
+.item  img {
+
+}
+.counter-box {
+    height: 112px;
+    background-color: #140c0c;
+    text-align: center;
+    color: white;
+}
+.about-counter {
+    margin: 44px 0px 0px 0px;
+}
+
+/*about-from-area*/
+/*about-from-area*/
+
+.about-from-area {
+    margin-top: 55px;
+    background-color: white;
+    padding: 25px 80px 0px 80px;
+}
+.form-head {
+    text-align: center;
+    margin-bottom: 54px;
+}
+.about-from-area form {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.about-from-area form input {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #cbb0b0;
+    border-radius: 5px;
+}
+.about-from-area form input:hover {
+    border: 1px solid green;
+}
+.about-from-area textarea {
+    width: 100%;
+    margin: 31px 0px 30px 0px;
+    border: 1px solid #ffabab;
+    border-radius: 5px;
+}
+.form-button {
+    text-align: center;
+}
+.form-button button {
+    background-color: green;
+    padding: 7px;
+    width: 166px;
+    border: none;
+    color: white;
+    transition: 0.2s;
+}
+.form-button button:hover {
+    background-color: black;
+    color: white;
+   
+}
+
+/*about-footer*/
+/*about-footer*/
+
+.about-footer {
+    background-color: black;
+    color: white;
+    margin-top: 110px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+.about-footer h5 {
+    margin-bottom: 22px;
+}
+.padding-tp {
+    padding: 73px 34px 17px 34px;
+}
+.about-footer ul li {
+    padding: 3px;
+}
+.about-footer span {
+   display: flex; 
+}
+.about-footer form {
+   display: flex; 
+}
+.about-footer form input {
+    padding: 7px 34px 7px 20px;
+}
+.about-footer button {
+    background-color: #29c5b6fa;
+    color: #222222;
+    border: none;
+    width: 45px;
+}
+.about-footer button:hover i {
+   color: white;
+}
+.footer-icon {
+    margin-top: 33px;
+}
+.footer-icon i {
+    padding-left: 14px;
+    background-color: #008900;
+    border-radius: 50%;
+    height: 34px;
+    width: 33px;
+    padding: 11px;
+}
+.footer-icon i:hover {
+    background-color: white;
+    color: green;
+}
+.extent {
+    padding-left: 15px;
+}
+
+
+
+
+/*/*/*/*/*/*/**/*/*/*/*/*/*/
+/*/*/*/*/*/*/**/*/*/*/*/*/*/
+/*/*/*/*/*/*/**/*/*/*/*/*/*/
+/*/*/*/*/*/*/**/*/*/*/*/*/*/
+/*/*/*/*/*/*/**/*/*/*/*/*/*/
+/*/*/*/*/*/*/**/*/*/*/*/*/*/
+
+/*this for projects-page*/
+
+.top-header {
+   
+}
+.navbar-color {
+    background-color: white;
+    color: !important black;
+}
+.navbar-color2 {
+    background-color: black;
+    color: white;
+}
+.ccc {
+
+}
+.color-it ul li a {
+    color: black;
+}
+.header-info {
+
+}
+.header-info span {
+    display: flex;
+    font-size: 13px;
+    padding: 6px 0 6px 15px;
+}
+.header-info span p {
+    padding: 9px 0px 0px 0px;
+}
+.header-info span i {
+    padding: 12px 12px 0px 0px;
+}
+.head-icon {
+    margin-top: 0;
+}
+.head-icon i {
+    margin-top: 0;
+    background-color: black;
+    font-size: 20px;
+}
+.head-icon i:hover {
+   color: green;
+   background-color: black;
+}
+
+
+
+.same-all-project {
+    margin-top: 83px;
+}
+.same-all-project .up-item {
+    margin: -30px 0px 0px 0px;
+}
+.same-all-project h6 {
+    text-align: center;
+}
+.same-all-project button {
+   
+}
+
+.projects-head {
+    text-align: center;
+    margin-bottom: 33px;
+}
+.projects-head button {
+    background-color: #159b1f;
+    color: white;
+    border: none;
+    width: 189px;
+    height: 31px;
+    font-style: italic;
+}
+.about-project {
+    background-color: black;
+    color: white;
+}
+.featured-button.product-button {
+    text-align: center;
+}
+.featured-button.product-button button:hover {
+   background-color: white;
+   color: green;
+}
+
+.about-center {
+    text-align: center;
+    justify-content: center;
+    padding: 75px 0px 75px 0px;
+    height: 313px;
+    position: relative;
+    top: 47px;
+}
+.about-center span {
+    display: flex;
+    justify-content: center;
+}

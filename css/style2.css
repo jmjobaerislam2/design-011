@@ -1,0 +1,385 @@
+/*about-contact-form*/
+
+.about-contact-form {
+    text-align: center;
+}
+.about-contact-form h4 {
+	margin-bottom: 40px;
+}
+.contact-form {
+    margin-left: 68px;
+}
+.contact-form form {
+    margin-top: 82px;
+}
+.contact-form .form-buton {
+	margin-top: 30px;
+}
+.contact-form .form-buton button {
+    background-color: #0a9915;
+    color: white;
+    padding: 8px;
+    width: 142px;
+    border: none;
+    border-radius: 2px;
+}
+.contact-form .form-buton {
+    margin-top: 30px;
+    text-align: left;
+    padding-left: 22px;
+}
+.contact-form .form-buton button:hover {
+    background-color: black;
+    color: white;
+}
+.contact-form input {
+    width: 92%;
+    padding: 11px 17px 11px 15px;
+    margin: 7px  0px 10px 0px;
+    border: 1px solid #ffc4c4;
+    border-radius: 6px;
+}
+.contact-form textarea {
+    width: 92%;
+    border: 1px solid silver;
+    border-radius: 6px;
+    margin-top: 4px;
+    padding-left: 16px;
+    padding-top: 10px;
+}
+.contact-info {
+    margin: 82px 0px 0px 46px;
+}
+.contact-info span {
+    display: flex;
+}
+.contact-info span p {
+    padding-left: 16px;
+}
+.contact-info ul li {
+    text-decoration: none;
+    list-style: none;
+    margin-left: -31px;
+}
+.contact-info span i {
+
+}
+/*about-map*/
+.about-google-map {
+    margin-top: 90px;
+} 
+
+.footer-margin {
+    margin-top: 10px;
+}
+/*about-progress*/
+/*about-progress*/
+
+.about-pertece {
+    margin: 80px 0px 41px 0px;
+}
+.about-pertece h1 {
+    padding-left: 57px;
+}
+.about-pertece h1::before {
+    content: "";
+    position: absolute;
+    left: 126px;
+    background-color: darkred;
+    height: 3px;
+    width: 110px;
+    margin-top: 49px;
+}
+.before {
+   /*   content: "";
+    position: absolute;
+    left: 126px;
+    background-color: darkred;
+    height: 3px;
+    width: 110px;
+    margin-top: 49px;*/
+}
+
+.about-text {
+    margin: 49px 0px 20px 65px;
+}
+
+
+.progress-area {
+    box-sizing: border-box;
+    margin: 1px 81px 0px 0px;
+}
+.progress-area li {
+    list-style: none;
+    margin: 50px 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    position: relative;
+
+ }
+ .progress-area li span {
+    float: right;
+    margin: 3px 33px 10px 5px;
+}
+ .progress-area li::before {
+    content: "";
+    position: absolute;
+    background-color: rgb(0 179 47 / 75%);
+    width: 94%;
+    height: 10px;
+    left: 0px;
+    border-radius: 1000px;
+    top: 30px;
+}
+.progress-area li::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 2400, 25);
+    left: 0px;
+    border-radius: 1000px;
+    top: 30px;
+    width: 0px;
+    height: 10px;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: ;
+    animation-direction: forward;
+}
+
+.progress-area li.html::after {
+    animation-name: html;
+}
+.progress-area li.css::after {
+    animation-name: css;
+}
+.progress-area li.js::after {
+    animation-name: html;
+}
+.progress-area li.javascript::after {
+    animation-name: javascript;
+}
+
+@keyframes html {
+    to {
+        width: 96%;
+        background-color: blue;
+    }
+}
+@keyframes css {
+    to {
+        width: 90%;
+        background-color: blue;
+    }
+}
+@keyframes javascript {
+    to {
+        width: 70%;
+        background-color: blue;
+    }
+}
+
+
+/*.atractive*/
+/*.atractive*/
+
+
+.atractive {
+    text-align: center;
+    background-color: #efefef;
+    padding: 66px 29px 90px 29px;
+}
+.choocen-box {
+    height: 300px;
+    background-color: #efefef;
+    border: 1px solid silver;
+    position: relative;
+    transition: 0.7s;
+    margin: 56px 0px 10px 0px;
+}
+.choocen-box:hover {
+  background-color: green;
+  color: white;
+
+}
+
+.choocen-box:hover .boxwe-text p {
+    visibility: visible;
+    color: white;
+
+}
+.img-boxwe {
+    position: absolute;
+    top: 29px;
+    height: 213px;
+    /* background-color: white; */
+    text-align: center;
+    justify-content: center;
+    left: 0px;
+    color: black;
+}
+.img-boxwe .boxwe-text p {
+    padding: 0px 70px 0px 70px;
+    visibility: hidden;
+    transition: 0.7s;
+}
+.img-boxwe h5 {
+    margin-top: 25px;
+}
+.img-boxwe img {
+    margin-top: 52px;
+    transform: scale(1);
+    
+}
+.choocen-box:hover .img-boxwe img {
+    z-index: ;
+    height: 50px;
+    transform: scale(.80);
+
+} 
+.footer-count {
+    margin: -50px 0px 84px 0px;
+}
+
+
+/*this for service*/
+/*this for service*/
+
+
+.about-service {
+    margin: 100px 88px 76px 88px;
+}
+.top-aling {
+    margin-top: 46px;
+}
+.service-box {
+
+}
+.service-box img {
+
+}
+.service-name {
+    background-color: white;
+    color: #7e7474;
+    padding-left: 31px;
+    padding-top: 23px;
+    height: 148px;
+}
+.service-name h6 {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.service-img img {
+    height: 100%;
+    width: 100%;
+    transform: scale(1.0);
+}
+.service-img img:hover {
+    height: 100%;
+    width: 100%;
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+
+.about-footer .form-box form input {
+    width: 100%;
+    padding: 10px;
+}
+.it-form {
+    margin-top: 21px;
+}
+.it-form option {
+
+}
+.form-box {
+
+}
+.footer-form {
+    margin: 27px 0px 85px 0px;
+}
+.form-box .form-button {
+    text-align: left;
+    margin-top: 20px;
+}
+.form-box .form-button button {
+    width: 150px;
+    padding: 11px;
+    background-color: #0bc9a6f7;
+    color: white;
+    font-size: 19px;
+    border: none;
+}
+.form-box .form-button button:hover {
+    background-color: white;
+    color: #02a100f7;
+}
+.maine-footer {
+    margin-top: 86px;
+}
+.foxer {
+
+}
+#mmk {
+    width: 100%;
+    padding: 13px;
+}
+
+/*about-trainin*/
+/*about-trainin*/
+
+
+.about-trainin {
+    margin-bottom: 30px;
+}
+.training-info {
+    padding: 75px 0px 1px 21px;
+}
+.training-info span {
+    display: flex;
+}
+
+.training-info  p {
+    padding-left: 12px;
+    line-height: 22px;
+    font-size: 14px;
+}
+.style-pri {
+    margin-left: 57px;
+}
+.style-pri2 {
+    margin-right: 57px;
+}
+.training-info form {
+
+}
+.training-info select {
+    padding: 5px;
+    margin-top: 20px;
+    border: 1px solid #998d00ba;
+    border-radius: 5px;
+}
+.training-info form .id {
+    width: 300px;
+    margin-top: 47px;
+}
+.bd {
+    margin-left: 28px;
+}
+.training-info form input {
+    padding: 12px;
+    margin-top: 14px;
+    border: 1px solid #ffd5b6;
+    border-radius: 5px;
+}
+.form-mony-card {
+    margin: 6px 0px 0px 0px;
+}
+.form-mony-card img {
+
+}
+.for-button {
+    float: left;
+    margin: 28px 0px 2px 0px;
+}

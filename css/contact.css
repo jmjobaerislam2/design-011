@@ -1,0 +1,40 @@
+.contact-information {
+    text-align: center;
+    margin: 37px 0px 0px 0px;
+}
+.information-ditails {
+   
+}
+.schedul-appointment {
+    padding-top: 15px;
+}
+.info-icon {
+    background-color: white;
+    box-shadow: 2px 5px 15px 0px #d6d6d6;
+    margin: 0px 0px 0px 0px;
+    padding-top: 30px;
+    height: 229px;
+    transition: 0.7s;
+}
+.information-ditails {
+    margin: 45px 86px 45px 86px;
+}
+.info-icon:hover {
+    box-shadow: 2px 0px 7px 5px #d6d6d6;
+}
+.info-icon i {
+    font-size: 37px;
+    color: green;
+}
+.info-conent {
+    padding-top: 27px;
+    line-height: 19px;
+    font-size: 14px;
+}
+.info-content2 {
+    padding-top: 31px;
+    line-height: 9px;
+}
+.about-google-map {
+    margin-bottom: 6px;
+}
